@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Fragment } from 'react';
 import Head from 'next/head';
 
@@ -29,6 +30,12 @@ export function getStaticProps() {
       posts: featuredPosts,
     },
   };
+=======
+import StartingPageContent from '../components/starting-page/starting-page';
+
+function HomePage() {
+  return <StartingPageContent />;
+>>>>>>> tmo
 }
 
 export default HomePage;
