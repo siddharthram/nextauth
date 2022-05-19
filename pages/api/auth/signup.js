@@ -12,8 +12,6 @@ async function handler(req, res) {
 
   const { email, password } = data;
 
-  console.log("email and pswd are", email, password);
-
   if (!validator.isEmail(email)) {
     res.status(422).json({ message: "invalid email" });
     return;
